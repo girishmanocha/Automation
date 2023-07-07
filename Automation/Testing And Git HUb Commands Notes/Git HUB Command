@@ -40,8 +40,13 @@ it should be sent to lead or Reviewer
 
 
 Git Status {For changes in code and path}
-Git add {stagging area}
+Git add . {stagging area}
+
+3rd Step
+
 Git diff {Comparing With Master Branch}
+4th Step
+
 Git commit -m "{any Work Related comments }"
 Git push {move code from  local repo to central repo }
 Git Stash {}
