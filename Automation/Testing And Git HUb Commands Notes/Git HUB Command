@@ -20,9 +20,12 @@ Git branch press enter
 
 
 Ist day
-[Git Pull --latest code pull in local system]
+1st step [Git Pull --latest code pull in local system]
  
+ 2ed Step
 [Git checkout -b xyz scenario ] 
+
+
 After completed the work we will give PR (Pull Request / merge request)
 it should be sent to lead or Reviewer
 
