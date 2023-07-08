@@ -58,7 +58,7 @@ public class LoginPage extends Base {
 
 	public void user_enter_invalid_and(String UserName, String PassWord) {
 		WebElement clkSign = driver.findElement(By.xpath("//button[@aria-label='Toggle My Account Menu']"));
-		clkSign.click();
+		Executerclick(clkSign);
 		WebElement username = driver.findElement(By.xpath("//input[@autocomplete='email']"));
 		username.sendKeys(UserName);
 		WebElement password = driver.findElement(By.xpath("//input[@autocomplete='current-password']"));
